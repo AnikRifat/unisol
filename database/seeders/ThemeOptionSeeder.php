@@ -33,11 +33,11 @@ class ThemeOptionSeeder extends BaseSeeder
             ],
             [
                 'key' => 'theme-' . $theme . '-site_title',
-                'value' => 'Wowy - Laravel Multipurpose eCommerce Script',
+                'value' => 'Arlab - Laravel Multipurpose eCommerce Script',
             ],
             [
                 'key' => 'theme-' . $theme . '-copyright',
-                'value' => sprintf('Copyright © %s Wowy all rights reserved. Powered by Botble.', Carbon::now()->year),
+                'value' => sprintf('Copyright © %s Arlab all rights reserved. Powered by Botble.', Carbon::now()->year),
             ],
             [
                 'key' => 'theme-' . $theme . '-favicon',
@@ -57,7 +57,7 @@ class ThemeOptionSeeder extends BaseSeeder
             ],
             [
                 'key' => 'theme-' . $theme . '-seo_description',
-                'value' => 'Wowy is an outstanding eCommerce Laravel script. It will be the perfect solution for your current or future web shop.',
+                'value' => 'Arlab is an outstanding eCommerce Laravel script. It will be the perfect solution for your current or future web shop.',
             ],
             [
                 'key' => 'theme-' . $theme . '-address',
@@ -73,7 +73,7 @@ class ThemeOptionSeeder extends BaseSeeder
             ],
             [
                 'key' => 'theme-' . $theme . '-contact_email',
-                'value' => 'sale@wowy.com',
+                'value' => 'sale@arlab.com',
             ],
             [
                 'key' => 'theme-' . $theme . '-working_hours',

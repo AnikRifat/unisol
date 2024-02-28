@@ -20,7 +20,7 @@ class ProductCategorySeeder extends BaseSeeder
             ],
             [
                 'name' => 'Electronics',
-                'icon' => 'wowy-font-cpu',
+                'icon' => 'arlab-font-cpu',
                 'image' => 'product-categories/1.jpg',
                 'is_featured' => true,
                 'children' => [
@@ -52,13 +52,13 @@ class ProductCategorySeeder extends BaseSeeder
             ],
             [
                 'name' => 'Clothing',
-                'icon' => 'wowy-font-tshirt',
+                'icon' => 'arlab-font-tshirt',
                 'image' => 'product-categories/2.jpg',
                 'is_featured' => true,
             ],
             [
                 'name' => 'Computers',
-                'icon' => 'wowy-font-desktop',
+                'icon' => 'arlab-font-desktop',
                 'image' => 'product-categories/3.jpg',
                 'is_featured' => true,
                 'children' => [
@@ -78,19 +78,19 @@ class ProductCategorySeeder extends BaseSeeder
             ],
             [
                 'name' => 'Home & Kitchen',
-                'icon' => 'wowy-font-home',
+                'icon' => 'arlab-font-home',
                 'image' => 'product-categories/4.jpg',
                 'is_featured' => true,
             ],
             [
                 'name' => 'Health & Beauty',
-                'icon' => 'wowy-font-dress',
+                'icon' => 'arlab-font-dress',
                 'image' => 'product-categories/5.jpg',
                 'is_featured' => true,
             ],
             [
                 'name' => 'Jewelry & Watch',
-                'icon' => 'wowy-font-diamond',
+                'icon' => 'arlab-font-diamond',
                 'image' => 'product-categories/6.jpg',
                 'is_featured' => true,
             ],
@@ -116,17 +116,17 @@ class ProductCategorySeeder extends BaseSeeder
             ],
             [
                 'name' => 'Phones',
-                'icon' => 'wowy-font-smartphone',
+                'icon' => 'arlab-font-smartphone',
                 'image' => 'product-categories/8.jpg',
                 'is_featured' => true,
             ],
             [
                 'name' => 'Babies & Moms',
-                'icon' => 'wowy-font-teddy-bear',
+                'icon' => 'arlab-font-teddy-bear',
             ],
             [
                 'name' => 'Sport & Outdoor',
-                'icon' => 'wowy-font-kite',
+                'icon' => 'arlab-font-kite',
             ],
             [
                 'name' => 'Books & Office',
@@ -138,7 +138,7 @@ class ProductCategorySeeder extends BaseSeeder
             ],
             [
                 'name' => 'Home Improvements',
-                'icon' => 'wowy-font-home',
+                'icon' => 'arlab-font-home',
             ],
         ];
 

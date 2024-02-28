@@ -1,0 +1,7 @@
+{
+    "name": "Arlab",
+    "namespace": "Theme\\Arlab\\",
+    "description": "Arlab - Laravel Multipurpose eCommerce script",
+    "author": "Botble Technologies",
+    "required_plugins": []
+}

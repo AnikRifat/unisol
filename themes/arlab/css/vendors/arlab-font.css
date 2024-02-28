@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "arlab-font";
+    src: url("../../fonts/arlab-font/arlab-font.ttf?5ff2f70882bedebb09d812961feeb5e7") format("truetype"),
+        url("../../fonts/arlab-font/arlab-font.woff?5ff2f70882bedebb09d812961feeb5e7") format("woff"),
+        url("../../fonts/arlab-font/arlab-font.woff2?5ff2f70882bedebb09d812961feeb5e7") format("woff2"),
+        url("../../fonts/arlab-font/arlab-font.eot?5ff2f70882bedebb09d812961feeb5e7#iefix") format("embedded-opentype"),
+        url("../../fonts/arlab-font/arlab-font.svg?5ff2f70882bedebb09d812961feeb5e7#arlab-font") format("svg");
+}
+
+i[class^="arlab-font-"]:before, i[class*=" arlab-font-"]:before {
+    font-family: arlab-font !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.arlab-font-cpu:before {
+    content: "\f101";
+}
+.arlab-font-desktop:before {
+    content: "\f102";
+}
+.arlab-font-diamond:before {
+    content: "\f103";
+}
+.arlab-font-dress:before {
+    content: "\f104";
+}
+.arlab-font-high-heels:before {
+    content: "\f105";
+}
+.arlab-font-home:before {
+    content: "\f106";
+}
+.arlab-font-kite:before {
+    content: "\f107";
+}
+.arlab-font-smartphone:before {
+    content: "\f108";
+}
+.arlab-font-teddy-bear:before {
+    content: "\f109";
+}
+.arlab-font-tshirt:before {
+    content: "\f10a";
+}
