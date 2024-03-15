@@ -90,6 +90,16 @@ if (defined('THEME_MODULE_SCREEN_NAME')) {
 
         Route::group([
             'namespace' => 'Botble\Ecommerce\Http\Controllers\Customers',
+            'middleware' => ['web', 'core'],
+            'as' => 'invoice.',
+        ], function () {
+            Route::get('builder', 'InvoiceBuilderController@test')->name('builder');
+
+        });
+
+
+        Route::group([
+            'namespace' => 'Botble\Ecommerce\Http\Controllers\Customers',
             'middleware' => [
                 'web',
                 'core',

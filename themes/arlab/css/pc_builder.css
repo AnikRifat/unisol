@@ -1,0 +1,825 @@
+/* PC Builder Styles */
+#extension-pc-builder-pc-builder {}
+
+#extension-pc-builder-pc-builder .pc-builder-container {
+    border: 1px solid #dadada;
+    padding: 15px 15px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container h1 {
+    margin: 0px 0px 30px 0px;
+    padding: 0 0;
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .logo {
+    padding: 0px 0px 0px 0px;
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .sub-heading {
+    color: #0f3a8d;
+    margin: 15px 0px 0px 0px;
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .hide-empty-component {
+    margin: 8px 0px 15px 0px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container #total-container {
+    margin-top: 15px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container #total-container .total-amount {
+    border: 2px solid #df5c39;
+    border-radius: 5px;
+    padding: 0px 10px;
+    float: right;
+    margin-right: 15px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container #total-container .total-weight {
+    border: 2px solid #df5c39;
+    border-radius: 5px;
+    padding: 0px 10px;
+    float: right;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container {
+    margin: 0px 0px 10px 0px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container h4 {
+    margin: 0px 0px 10px 0px;
+    padding: 0 0;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container {
+    border: 1px solid #dadada;
+    background-color: #fafafa;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container.required-component {
+    border: 1px solid #da4f49;
+    background-color: #ddd3d3;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-image {
+    float: left;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-image .thumbnail {
+    margin-bottom: 0px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name {
+    float: left;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-product {
+    float: left;
+    padding: 10px 16px;
+    font-size: 15px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-price {
+    float: right;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-price-mobile {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-choose {
+    float: right;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-choose-mobile {
+    float: right;
+}
+
+#extension-pc-builder-pc-builder #menu-container {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-button {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    text-align: center;
+    height: 32px;
+}
+
+#extension-pc-builder-pc-builder .button-container {
+    padding: 0px 8px;
+    line-height: 10px;
+}
+
+#extension-pc-builder-pc-builder .button-container:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+#extension-pc-builder-pc-builder .button-container .pc-builder-button .fa {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #df5c39;
+}
+
+#extension-pc-builder-pc-builder .button-container .pc-builder-button:hover .fa {
+    color: #0f3a8d;
+}
+
+#extension-pc-builder-pc-builder .button-container:first-child .pc-builder-button .fa {
+    margin-bottom: 9px;
+}
+
+#extension-pc-builder-pc-builder .button-container:last-child .pc-builder-button .fa {
+    margin-bottom: 9px;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-button span {
+    font-size: 12px;
+}
+
+/* PC Builder Browse */
+#pc-builder-browse .products-filter {
+    float: right;
+    padding: 7px 0px;
+    margin: 0px 10px 0px 0px;
+    border: none;
+}
+
+@media (max-width: 375px) {
+    #pc-builder-browse .products-filter {
+        float: left;
+        padding: 7px 0px;
+        margin: 0px 0px;
+        border: none;
+    }
+}
+
+/* PC Builder Build Styles */
+#extension-pc-builder-pc-builder-build {}
+
+#extension-pc-builder-pc-builder-build .pc-builder-category-container {}
+
+/* PC Builder Journal 3 */
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .header-container {
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .logo img {
+        margin: auto;
+    }
+
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .sub-heading {
+        font-size: 12px;
+    }
+
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .hide-empty-component label {
+        margin: 0px auto 0px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container #total-container {
+        margin: 0px auto 15px auto;
+    }
+
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container #total-container .total-amount {
+        display: inline-block;
+        float: none;
+    }
+
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container #total-container .total-weight {
+        display: inline-block;
+        float: none;
+    }
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .text-danger {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+@media (max-width: 576px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-image img {
+        width: 42px;
+        height: auto;
+    }
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name-product {
+    padding: 0px 16px;
+    float: left;
+}
+
+@media (max-width: 360px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name-product {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 390px) and (min-width: 361px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name-product {
+        max-width: 170px;
+    }
+}
+
+@media (max-width: 428px) and (min-width: 391px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name-product {
+        max-width: 200px;
+    }
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name {
+    padding: 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    float: none;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name {
+        margin-bottom: 0px;
+    }
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-product {
+    padding: 0px 0px;
+    font-size: 12px;
+    float: none;
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-product .component-product-empty {
+    background-color: #fafafa;
+}
+
+@media (max-width: 576px) {
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-choose-mobile button.remove-mobile {
+        background-color: transparent;
+    }
+}
+
+/* PC Builder Product */
+#pc-builder-journal3 .product-thumb {
+    border: none;
+    padding: 10px 10px;
+}
+
+#pc-builder-journal3 .product-thumb .image a {
+    display: block;
+}
+
+#pc-builder-journal3 .product-thumb .image .img-center {
+    margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    #pc-builder-journal3 .product-thumb {
+        border: 1px solid #dddddd;
+        padding: 10px 10px;
+        margin-bottom: 15px;
+    }
+}
+
+/*
+#pc-builder-journal3 .product-thumb .caption .name {
+ border-top: 1px solid #dddddd;
+ border-bottom: 1px solid #dddddd;
+ min-height: 48px;
+}
+*/
+
+#pc-builder-journal3 .product-thumb .caption .price {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pc-builder-journal3 .thumbnails {
+    overflow: auto;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pc-builder-journal3 .thumbnails>li {
+    margin-left: 20px;
+}
+
+.pc-builder-journal3 .thumbnails {
+    margin-left: -20px;
+}
+
+.pc-builder-journal3 .thumbnails>img {
+    width: 100%;
+}
+
+.pc-builder-journal3 .image-additional a {
+    margin-bottom: 20px;
+    padding: 5px;
+    display: block;
+    border: 1px solid #ddd;
+}
+
+.pc-builder-journal3 .image-additional {
+    max-width: 78px;
+}
+
+.pc-builder-journal3 .thumbnails .image-additional {
+    float: left;
+    margin-left: 20px;
+}
+
+.pc-builder-journal3 .stepper {
+    margin-right: 20px;
+    height: 44px;
+}
+
+.pc-builder-journal3 .back-url {
+    margin-bottom: 20px;
+}
+
+/* The side navigation menu */
+.overlay {
+    position: fixed;
+    display: none;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9998;
+}
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 9999;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: #fff;
+    /* White*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 0px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* PC Builder Filter */
+@media (max-width: 576px) {
+    .pc-builder-filter #slider-min {
+        width: 100px;
+    }
+
+    .pc-builder-filter #slider-max {
+        width: 100px;
+    }
+}
+
+/*PC Builder Update CSS Start*/
+
+/* -------------------------------------Responsive code Start-------------------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+    /* styles for mobile devices */
+    /* adjust the width of elements, change font sizes, etc. */
+
+
+    .pcb-product-card-1 {
+        flex-direction: column;
+        padding: 0px !important;
+
+    }
+
+
+    .pcb-product-card {
+        background: #fff;
+        display: flex;
+        min-width: 100%;
+
+    }
+
+    .pcb-product-image {
+        width: 30% !important;
+    }
+
+    .pcb-product-caption {
+        width: 70%;
+        padding: 10px;
+    }
+
+    #pc-builder-journal3 .pcb-product-card .pcb-product-caption .name a {
+
+        display: block !important;
+        white-space: inherit;
+        text-transform: capitalize !important;
+        Font-size: 13px !important;
+        font-weight: bold !important;
+        color: #000;
+    }
+
+    #pc-builder-journal3 .pcb-product-card .pcb-product-caption ul {
+
+        display: block !important;
+        white-space: inherit;
+        text-transform: capitalize !important;
+        Font-size: 12px !important;
+        font-weight: normal !important;
+        color: #343541;
+    }
+
+    .pcb-price-btn-section {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        flex-direction: row !important;
+        padding: 10px;
+        border-radius: 0px 0px 5px 5px;
+        background: #f7faff;
+    }
+
+    #pc-builder-cart {
+        height: 35px !important;
+    }
+
+
+    .btn-top {
+        width: auto;
+        font-weight: 500 !important;
+        text-transform: capitalize !important;
+        background: none;
+        color: #000 !important;
+        font-size: 12px !important;
+        padding: 7px !important;
+        text-align: center !important;
+        border: 1px #ddd solid !important;
+    }
+
+    .btn-top :hover:active {
+        background: none !important;
+        color: #F35438 !important;
+
+    }
+
+
+    .back-reset {
+        margin: 5px !important;
+    }
+
+    #pc-builder-browse {
+        background: #fff;
+        padding: 0px !important;
+        border: 1px solid #ddd !important;
+    }
+
+    .pc_builder_search_pagination {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .sub-heading {
+        color: #0f3a8d;
+        margin: 15px 0 0;
+        font-weight: 600;
+        text-align: center !important;
+    }
+
+    .component-product-empty {
+        background: #F2F3F4 !important;
+        height: 10px !important;
+        width: 169px !important;
+        margin-top: 7px !important;
+    }
+
+    #extension-pc-builder-pc-builder .form-horizontal {
+        padding: 0 !important;
+    }
+
+    .text-danger {
+        font-size: 20px !important;
+        color: #F35438 !important;
+    }
+
+    #pc-builder-browse {
+        display: block !important;
+        margin-bottom: 0px !important;
+    }
+
+    #extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .pc-builder-category-container .pc-builder-component-container .component-name-product {
+        max-width: 225px !important;
+    }
+
+
+}
+
+
+/* -------------------------------------Responsive code close-------------------------------------------------------------*/
+
+/*-------PC builder Filter Start-------*/
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.2em !important;
+}
+
+.pc-builder-filter .list-group {
+    padding: 5px !important;
+}
+
+a .list-group-item {
+    font-size: 15px !important;
+    font-weight: 600px !important;
+}
+
+.list-group-item {
+    padding: 7px !important;
+}
+
+.ui-widget-content {
+    border: none !important;
+    background: #F35438 !important;
+}
+
+.ui-state-default {
+    border: 2px solid #EF4A23 !important;
+    background-color: #FFF !important;
+    font-weight: normal;
+    border-radius: 99px !important;
+    box-shadow: 0 0 0 4px #fff inset, 0 0 0 9px #ef4a23 inset, 0 0 0 2px #fff;
+}
+
+/*-------PC builder Filter End-------*/
+
+
+/*-------PC builder Page start-------*/
+
+
+
+#pc-builder-browse {
+    margin-bottom: 15px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pc_builder_search_pagination {
+    border: 1px solid #ddd !important;
+}
+
+
+
+#pc-builder-journal3 .grid-rows {
+    display: none !important;
+}
+
+#extension-pc-builder-pc-builder-build .grid-cols {
+    display: none !important;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container h4 {
+    margin: 0 0 10px;
+    color: #fff;
+    font-size: 15px;
+    background: #808996;
+    line-height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px !important;
+}
+
+#extension-pc-builder-pc-builder.pc-builder-journal3 .pc-builder-container .sub-heading {
+    color: #0f3a8d;
+    margin: 15px 0 0;
+    font-weight: 600;
+    text-align: left !important;
+}
+
+.component-product-empty {
+    background: #F2F3F4 !important;
+    height: 15px !important;
+    width: 500px !important;
+    margin-top: 15px !important;
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container #total-container .total-amount {
+    color: #FFF !important;
+    border-radius: 3px !important;
+    padding: 5px 50px !important;
+    float: right;
+    background-color: #F35438 !important;
+    font-weight: 600 !important;
+    margin-right: 15px;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+}
+
+#extension-pc-builder-pc-builder .pc-builder-container .pc-builder-category-container .pc-builder-component-container {
+    border: 1px solid #eee !important;
+    background-color: #ffffff !important;
+    padding: 10px 7px !important;
+    margin-bottom: 5px !important;
+}
+
+
+
+#pc-builder-journal3 .btn-cart::before {
+    display: none !important;
+}
+
+
+
+#pc-builder-browse .products-filter {
+    float: right;
+    border: none;
+    background: none !important;
+    box-shadow: none !important;
+
+}
+
+
+#pc-builder-browse {
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ddd !important;
+}
+
+#pc-builder-journal3 .grid-cols {
+    display: none;
+}
+
+
+
+
+#pc-builder-journal3 .product-thumb {
+    background: #fff;
+    margin: 10px;
+    border: 1px #ddd solid !important;
+}
+
+
+
+
+#extension-pc-builder-pc-builder .pc-builder-container {
+    background: #fff !important;
+}
+
+.desktop-header-active .header-mega .mid-bar .secondary-menu .top-menu {
+    height: 45px;
+}
+
+
+/*PC-Builder Customization end*/
+
+@media (max-width: 750px) {}
+
+
+
+/*-------PC builder Page End-------*/
+
+
+
+
+/*-------search Page-------*/
+
+.pcb-product-card-1 {
+    background: #fff;
+    padding: 5px;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pcb-product-card {
+
+    display: flex;
+    margin: 10px 0px 10px 0px;
+
+    min-width: 85%;
+}
+
+.pcb-product-image {
+    width: 15%;
+}
+
+.pcb-product-caption {
+    width: 70%;
+    padding: 10px;
+}
+
+#pc-builder-journal3 .pcb-product-card .pcb-product-caption .name a {
+
+    display: block !important;
+    white-space: inherit;
+    text-transform: capitalize !important;
+    font-size: 15px;
+    font-weight: bold !important;
+    color: #000;
+}
+
+#pc-builder-journal3 .pcb-product-card .pcb-product-caption ul {
+
+    display: block !important;
+    white-space: inherit;
+    text-transform: capitalize !important;
+    font-size: 13px;
+    font-weight: normal !important;
+    color: #343541;
+}
+
+.pcb-price-btn-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pcb-price-btn-section .price {
+
+    padding: 10px;
+    white-space: inherit;
+    text-transform: capitalize !important;
+    Font-size: 20px;
+    font-weight: Normal !important;
+    color: #000;
+}
+
+.pcb-price-btn-section .btn {
+    min-width: 100px !important;
+}
+
+
+/*PC Builder Update CSS Close*/

@@ -10,3 +10,11 @@
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+use App\Http\Controllers\InvoiceController;
+use Illuminate\Support\Facades\Route;
+
+Route::get(
+    '/make/invoice',
+    [InvoiceController::class, 'index']
+)->name('invoice');

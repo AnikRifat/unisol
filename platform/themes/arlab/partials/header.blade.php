@@ -184,7 +184,11 @@
                                     <div class="header-action-icon-2">
                                         <a href="{{ route('customer.login') }}">
                                             <img alt="{{ __('Sign In') }}" src="{{ Theme::asset()->url('images/icons/icon-user.svg') }}">
+
                                         </a>
+                                    </div>
+                                    <div class="header-action-icon">
+                                        <a href="{{ route('invoice') }}" class="btn btn-primary btn-sm">get Quote</a>
                                     </div>
                                 </div>
                             </div>
