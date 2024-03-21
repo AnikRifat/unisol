@@ -38,7 +38,7 @@
         "botble/dev-tool": "^1.0",
         "botble/git-commit-checker": "^2.1",
         "fakerphp/faker": "^1.23",
-        "knuckleswtf/scribe": "^4.22",
+        "knuckleswtf/scribe": "^4.31",
         "laravel/pint": "^1.5",
         "laravel/sail": "^1.23",
         "mockery/mockery": "^1.6",

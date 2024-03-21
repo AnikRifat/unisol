@@ -15,6 +15,19 @@ use App\Http\Controllers\InvoiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get(
-    '/make/invoice',
+    '/invoice/index',
     [InvoiceController::class, 'index']
 )->name('invoice');
+
+Route::get(
+    '/invoice/getCategoryProduct/{id}',
+    [InvoiceController::class, 'getCategoryProduct']
+)->name('invoice.getCategoryProduct');
+Route::get(
+    '/invoice/getImageUrl/{path}/{url}',
+    [InvoiceController::class, 'getImageUrl']
+)->name('invoice.getImageUrl');
+Route::get(
+    '/invoice/getProductDetails/{id}',
+    [InvoiceController::class, 'getProductDetails']
+)->name('invoice.getProductDetails');

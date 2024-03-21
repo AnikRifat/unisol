@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @method static string renderHeader()
  * @method static array getUrls()
- * @method static string renderFooter()
+* @method static string renderFooter()
  * @method static string renderContent()
  * @method static \Illuminate\Http\JsonResponse responseSuccess(array $data, string|null $message = null)
  * @method static \Illuminate\Http\JsonResponse responseError(string $message, array $data = [], int|null $code = null, int $status = 200)
