@@ -31,3 +31,7 @@ Route::get(
     '/invoice/getProductDetails/{id}',
     [InvoiceController::class, 'getProductDetails']
 )->name('invoice.getProductDetails');
+Route::get(
+    '/invoice/getProductsByCategory/{id}',
+    [InvoiceController::class, 'getProductsByCategory']
+)->name('invoice.getProductsByCategory');
